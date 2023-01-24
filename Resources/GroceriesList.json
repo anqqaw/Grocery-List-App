@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bread",
+    "isTaken": false,
+    "isNotAvailable": true,
+  },
+  {
+    "id": 2,
+    "name": "Milk",
+    "isTaken": true,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 3,
+    "name": "Eggs",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 4,
+    "name": "Tomatoes 0.5 Kg",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 5,
+    "name": "Potatoes 2 Kg",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 6,
+    "name": "Butter",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 7,
+    "name": "Cheese",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 8,
+    "name": "Juice",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 9,
+    "name": "Chicken 1 Kg",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+  {
+    "id": 10,
+    "name": "Pork 1 Kg",
+    "isTaken": false,
+    "isNotAvailable": false,
+  },
+]
