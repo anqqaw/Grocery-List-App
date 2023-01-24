@@ -22,15 +22,13 @@ struct GroceryDetail: View {
 
             Divider()
 
-            //  ei kahta nappia pohjaan samaan aikaan
-            
             Toggle(isOn: $modelData.groceries[groceryIndex].isNotAvailable) {
                 Text("Missing")
-            }
+            }.disabled(modelData.groceries[groceryIndex].isTaken)
 
             Toggle(isOn: $modelData.groceries[groceryIndex].isTaken) {
                 Text("Taken")
-            }
+            }.disabled(modelData.groceries[groceryIndex].isNotAvailable)
         }
     }
 }
